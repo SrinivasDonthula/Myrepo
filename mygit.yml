@@ -10,6 +10,7 @@
       apt: 
        name: tree
        state: present
+      ignore_errors: yes
     - name: install wget on ubuntu 18 node
       apt:
        name: wget
