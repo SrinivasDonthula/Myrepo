@@ -9,8 +9,8 @@
 
   - name: install tree on nodes
     apt:
-      name: tree
-      state: present
+     name: tree
+     state: present
 
   - name:  install wget on nodes
     apt:
